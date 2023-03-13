@@ -42,7 +42,8 @@ namespace JuncalApi.Controllers
         [HttpPost]
         public ActionResult CargarOrdenes([FromBody] OrdenRequerido ordenReq)
         {
-            var orden = _uow.RepositorioJuncalOrden.GetByCondition(c => c.IdAceria == ordenReq.IdAceria 
+            var orden = _uow.RepositorioJuncalOrden.GetByCondition(c => c.Remito == ordenReq.Remito
+            && c.IdAceria == ordenReq.IdAceria 
             && c.IdCamion==ordenReq.IdCamion 
             && c.IdContrato== ordenReq.IdContrato 
             && c.IdProveedor== ordenReq.IdProveedor

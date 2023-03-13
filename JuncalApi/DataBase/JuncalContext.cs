@@ -317,7 +317,7 @@ public partial class JuncalContext : DbContext
                 .HasColumnType("int(11)")
                 .HasColumnName("id");
             entity.Property(e => e.Direccion)
-                .HasColumnType("int(11)")
+                .HasMaxLength(255)
                 .HasColumnName("direccion");
             entity.Property(e => e.IdProveedor)
                 .HasColumnType("int(200)")
@@ -424,6 +424,8 @@ public partial class JuncalContext : DbContext
 
             entity.HasIndex(e => e.IdEstado, "fk_orden_estados");
 
+            entity.HasIndex(e => e.IdDireccionProveedor, "fk_direccion_proveedor");
+
             entity.Property(e => e.Id)
                 .HasColumnType("int(11)")
                 .HasColumnName("id");
@@ -446,6 +448,9 @@ public partial class JuncalContext : DbContext
             entity.Property(e => e.IdProveedor)
                 .HasColumnType("int(200)")
                 .HasColumnName("id_proveedor");
+            entity.Property(e => e.IdDireccionProveedor)
+                .HasColumnType("int(200)")
+                .HasColumnName("id_direccion_proveedor");
             entity.Property(e => e.Isdeleted)
                 .HasDefaultValueSql("'0'")
                 .HasColumnName("isdeleted");

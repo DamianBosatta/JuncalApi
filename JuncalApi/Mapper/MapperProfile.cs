@@ -93,8 +93,11 @@ namespace JuncalApi.Mapper
             #endregion
 
             #region ORDEN MATERIAL
+            
             CreateMap<OrdenMaterialRequerido, JuncalOrdenMarterial>();
             CreateMap<JuncalOrdenMarterial, OrdenMaterialRespuesta>();
+
+
             #endregion
 
             #region SUCURSAL

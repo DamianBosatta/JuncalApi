@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
 
-        public int Direccion { get; set; }
+        public string Direccion { get; set; }
  
         public int IdProveedor { get; set; }
     }

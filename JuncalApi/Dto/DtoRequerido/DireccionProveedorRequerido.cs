@@ -2,7 +2,7 @@
 {
     public class DireccionProveedorRequerido
     {   
-        public int Direccion { get; set; }
+        public string Direccion { get; set; }
 
         public int IdProveedor { get; set; }
     }

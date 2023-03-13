@@ -25,6 +25,8 @@ public partial class JuncalOrden
 
     public int? IdAcoplado { get; set; }
 
+    public int? IdDireccionProveedor { get; set; }
+
     public string Observaciones { get; set; } = null!;
 
     public virtual JuncalAcerium IdAceriaNavigation { get; set; } = null!;

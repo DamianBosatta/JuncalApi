@@ -7,7 +7,7 @@ public partial class JuncalDireccionProveedor
 {
     public int Id { get; set; }
 
-    public int Direccion { get; set; }
+    public string Direccion { get; set; }
 
     public bool Isdelete { get; set; }
 

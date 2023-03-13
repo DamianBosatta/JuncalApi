@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PWe6yZA8N5o/CTrTO/XadrTbu3cIp7bTHLJ7L4j5ZNrWGSmU0vJZgBStI2YbYotlL3ThVZpzJn/OEd2xquhdaA==",
+  "dgSpecHash": "uesuUUv3RMzHOKmzjTfKTCRlDEvNjBkf4SgD467jDnVMV/pcRY1GSIz0reCu5ad01gLwCRL54KM2JO0yMVnW1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Felix\\OneDrive\\Escritorio\\Proyecto Juncal Api\\JuncalApi\\JuncalApi.csproj",
+  "projectFilePath": "C:\\Users\\Felix\\Source\\Repos\\JuncalApi2\\JuncalApi\\JuncalApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Felix\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Felix\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
